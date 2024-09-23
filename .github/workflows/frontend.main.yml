@@ -20,7 +20,7 @@ jobs:
       with:
         azcliversion: 2.64.0
         inlineScript: |
-            az storage blob upload-batch --account-name rayazureresumestorageacc --auth-mode key -d '$web' -s frontend/
+            az storage blob upload-batch --account-name raygetresumecounter2 --auth-mode key -d '$web' -s frontend/
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
